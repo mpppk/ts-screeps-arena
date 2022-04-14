@@ -4,7 +4,7 @@
   "description": "",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "esbuild src/spawn_and_swamp/main.mts --outdir=dist/spawn_and_swamp --out-extension:.js=.mjs"
+    "build:spawn-and-swamp": "esbuild src/spawn_and_swamp/*.ts --outdir=dist/spawn_and_swamp --out-extension:.js=.mjs"
   },
   "license": "MIT",
   "devDependencies": {
